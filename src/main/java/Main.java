@@ -1,6 +1,5 @@
 import calculator.Scientific.ScientificCalculator;
 import com.formdev.flatlaf.FlatDarculaLaf;
-import com.formdev.flatlaf.FlatLightLaf;
 
 import javax.swing.*;
 

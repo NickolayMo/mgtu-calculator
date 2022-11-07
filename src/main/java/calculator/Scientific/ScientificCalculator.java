@@ -39,6 +39,7 @@ public class ScientificCalculator extends JFrame implements ActionListener {
         outField.setHorizontalAlignment(SwingConstants.RIGHT);
         outField.setPreferredSize(new Dimension(100,50));
         outField.setFont(new Font("Arial", Font.PLAIN, 40));
+        outField.setEditable(false);
         JLabel label = new JLabel();
         label.setText("Результат:");
         label.setPreferredSize(new Dimension(50,50));
@@ -49,6 +50,7 @@ public class ScientificCalculator extends JFrame implements ActionListener {
         inField.setHorizontalAlignment(SwingConstants.RIGHT);
         inField.setPreferredSize(new Dimension(150,50));
         inField.setFont(new Font("Arial", Font.PLAIN, 40));
+        inField.setEditable(false);
         textpanel.add(inField);
         textpanel.add(resPanel);
         ButtonPanel buttonpanel = new ButtonPanel(this);
